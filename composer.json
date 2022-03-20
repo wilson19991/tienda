@@ -1,0 +1,21 @@
+{
+    "name": "wilson19991/tienda",
+    "description": "sistema para una tienda",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    
+    "authors": [
+        {
+            "name": "Wilson Lopez",
+            "email": "sin@correo.com"
+        }
+    ],
+    "require": {}
+}
