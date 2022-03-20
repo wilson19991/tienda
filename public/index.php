@@ -7,6 +7,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $miAuto = new App\Http\Auto;
 $tuAuto = new \App\Http\Auto;
 $suAuto = new \App\Http\Auto;
+$elAuto = new \App\Http\Auto;
 
 // asignando
 
@@ -24,4 +25,5 @@ $tuAuto->funcional = true;
 
 $miAuto->mostrar();
 $tuAuto->mostrar();
+$suAuto->mostrar();
 $suAuto->mostrar();
